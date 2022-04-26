@@ -13,3 +13,5 @@
     1. `sudo mount -o loop unsquashfs/LiveOS/rootfs.img  rootfs`
 1. Check the contents of rootfs and see a filesystem
 1. `sudo tar -C rootfs -c . | docker import - andrew/centos_7`
+1. `sudo docker run -i -t --rm andrew/centos_7 bash`
+1. `cat /etc/os-release`
